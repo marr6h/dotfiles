@@ -1,0 +1,16 @@
+(load-theme 'deeper-blue t)
+(define-key key-translation-map (kbd "C-h") (kbd "<DEL>"))
+(fset 'yes-or-no-p 'y-or-n-p)
+(scroll-bar-mode 0)
+(tool-bar-mode 0)
+(column-number-mode)
+(setq initial-frame-alist
+   (append (list
+      '(top . 0)
+      '(left . 300)
+      '(width . 120)
+      '(height . 50))
+     initial-frame-alist))
+(setq default-frame-alist initial-frame-alist)
+(setq inhibit-startup-message t)
+(setq initial-scratch-message "")
