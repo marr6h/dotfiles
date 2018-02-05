@@ -1,11 +1,12 @@
-atom-beautify@0.30.5
-atom-clock@0.1.15
+atom-beautify@0.30.9
+atom-clock@0.1.16
 auto-indent@0.5.0
-autocomplete-paths@2.11.0
+autocomplete-paths@2.12.2
 busy-signal@1.4.3
 chester-atom-syntax@0.3.0
-file-icons@2.1.12
+file-icons@2.1.16
 intentions@1.1.5
 linter@2.2.0
 linter-ui-default@1.6.10
+slime@2.4.0
 
